@@ -1,1 +1,3 @@
-$("#search").chosen({ allow_single_deselect: true, search_contains: true, placeholder_text_single: "Select a DataBlock" });
+$(document).ready(function() {
+    $("#search").chosen({ allow_single_deselect: true, search_contains: true, placeholder_text_single: "Select a Datablock" });
+});

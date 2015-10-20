@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///home/mswan/proj/forms/www/index.html -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Visualization Module Form (WIP)</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="css/chosen.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="shortcut icon" href="favicon.ico">
+   </head>
+   <body>
+      <div id="vis-form">
+         <h2>DataBlock</h2>
+         <select id="search" style="display: none;">
+            <option></option>
+            <option value="5">MSPC</option>
+            <option value="3">DARA</option>
+         </select>
+         <div class="chosen-container chosen-container-single" style="width: 300px;" title="" id="search_chosen">
+            <a class="chosen-single chosen-single-with-deselect chosen-default" tabindex="-1">
+               <span>Select a DataBlock</span>
+               <div><b></b></div>
+            </a>
+            <div class="chosen-drop">
+               <div class="chosen-search"><input type="text" autocomplete="off"></div>
+               <ul class="chosen-results">
+                  <li class="active-result" data-option-array-index="1">MSPC</li>
+                  <li class="active-result" data-option-array-index="2">DARA</li>
+               </ul>
+            </div>
+         </div>
+         <div id="or-horizontal-divider">
+            <div class="or-horizontal-divider-line"></div>
+            or
+            <div class="or-horizontal-divider-line"></div>
+         </div>
+         <div id="datablock-upload">
+            <form id="datablock-upload-form"><input id="datablock-upload-file-input" name="datablock-file" type="file"></form>
+            <button id="datablock-upload-button">Upload DataBlock</button>
+         </div>
+      </div>
+   </body>
+</html>
